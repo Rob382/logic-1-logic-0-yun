@@ -11,4 +11,4 @@ Este programa distinge 4 estados distintos en un único pulsador:
 
 *Para fácil entendimiento se puede utilizar para diferenciar si en el mismo interruptor/entrada está recibiendo un tren de pulsos con periodo igual al doble del tiempo umbrál o se mantiene en un estado 1 lógico o 0 lógico constante.*
 
-*Revizar el ejemplo de uso.*
+*Revizar el ejemplo de uso: leer una entrada.ino*
