@@ -3,7 +3,7 @@ Obtener 4 estados distintos de un solo pulsador  o un tren de pulsos (1 lógico 
 
 ***Programa realizado para ardúino yun con monitor serial por medio de wifi***
 
-Este programa distinge 4 estados distintos en un único pulsador:
+Este programa distingue 4 estados distintos en un único pulsador:
 - logic 1 short al haber sido presionado el pulsador durante el tiempo menor al establecido como umbrál.
 - logic 1 long al haber sido presionado el pulsador durante el tiempo mayor al establecido como umbrál (despues de pasado el tiempo úmbral al mantenerlo presionado no se repite la acción hasta que cambie de estado lógico).
 - logic 0 short al haber sido soltado el pulsador durante un tiempo menor al úmbral (se suelta y se vuelve a presionar el pulsador antes del tiempo umbrál).
