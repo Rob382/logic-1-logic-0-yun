@@ -14,9 +14,9 @@ void leer_1_entrada(){
 // para poder monitorizar por medio de comunicación serial se requirió conectar a un arduino yun y enviar esos datos por medio del wifi
 // esto significa que todas las instancias para imprimir por consola serial en lugar de escribirse como "Serial.println();" cambian a "Console.println();"
 // en caso de probarlo en cualquier otra placa arduino conectada directamente mediante cable usb es necesario lo siguiente:
-//  - borrar o comentar los llamamientos a librerias al incio del programa
-//  - borrar o comentar las lineas "todos Bridge.begin();" y "Console.begin();" dentro del void setup()
-//  - remplazar todoas las lineas que tienen escrito "Console.println" con "Serial.println" utilizando el atajo CTRL+F
+//  - Borrar o comentar los llamamientos a librerias al incio del programa
+//  - Borrar o comentar las lineas "Bridge.begin();" y "Console.begin();" dentro del "void setup(){}"
+//  - Remplazar todoas las lineas que tienen escrito "Console.println" con "Serial.println" utilizando el atajo CTRL+F
 
 
 
